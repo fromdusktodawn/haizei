@@ -16,6 +16,6 @@ using namespace std;
 
 int main() {
     int a = 123;
-    log("%d", a);
+    log("%d", a + 3);
     //printf("[%s : %s : %d] %d\n", __FILE__, __func__, __LINE__, a);
 }
