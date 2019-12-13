@@ -11,11 +11,9 @@
 using namespace std;
 
 int main() {
-    int n;
-    char str[100];
-    while (cin >> n) {
-        sprintf(str, "%x", n);
-        printf("%s has %lu digit", str, strlen(str));
-    }
+    char str[] = "123 456 789";
+    int a;
+    sscanf(str, "%d%[^$]s", &a, str);
+    cout << str << endl;
     return 0;
 }
